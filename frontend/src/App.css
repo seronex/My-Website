@@ -97,7 +97,7 @@ body {
 .navbar-logo {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
   cursor: pointer;
   transition: opacity 0.2s ease;
 }
@@ -111,6 +111,17 @@ body {
   width: auto;
   display: block;
   object-fit: contain;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.dark .logo-text {
+  color: var(--text-primary);
 }
 
 .logo-icon {
