@@ -636,6 +636,36 @@ body {
   text-align: center;
 }
 
+.footer-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+}
+
+.footer-phone-icon {
+  color: var(--cyan);
+}
+
+.footer-contact-text {
+  color: var(--text-secondary);
+}
+
+.footer-contact-link {
+  color: var(--cyan);
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+.footer-contact-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 .footer-text {
   font-size: 0.95rem;
   color: var(--text-secondary);
