@@ -105,6 +105,13 @@ body {
   opacity: 0.8;
 }
 
+.logo-image {
+  height: 48px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
 .logo-icon {
   color: var(--cyan);
   display: flex;
