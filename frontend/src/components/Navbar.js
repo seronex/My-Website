@@ -30,6 +30,7 @@ const Navbar = () => {
             alt="Seronex Innovations" 
             className="logo-image"
           />
+          <span className="logo-text">Seronex<span className="logo-highlight"> Innovations</span></span>
         </div>
 
         <div className="navbar-menu">
