@@ -725,6 +725,15 @@ body {
   .hero {
     padding: 5rem 1.5rem 3rem;
   }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
   
   .hero-title {
     font-size: 2.25rem;
@@ -732,6 +741,14 @@ body {
   
   .hero-subtitle {
     font-size: 1.5rem;
+  }
+
+  .hero-image-container {
+    order: -1;
+  }
+
+  .hero-image {
+    max-width: 100%;
   }
   
   .section-title {
