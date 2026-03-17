@@ -176,8 +176,8 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 6rem 2rem 4rem;
+  justify-content: flex-start;
+  padding: 6rem 0 4rem 0;
   position: relative;
   overflow: hidden;
 }
@@ -253,7 +253,10 @@ body {
 }
 
 .hero-content {
-  max-width: 900px;
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 0 auto;
   position: relative;
   z-index: 2;
 }
