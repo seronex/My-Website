@@ -25,13 +25,11 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <div className="navbar-logo" onClick={() => scrollToSection('home')}>
-          <div className="logo-icon">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-              <circle cx="16" cy="16" r="12" stroke="currentColor" strokeWidth="2" />
-              <path d="M16 8L20 16L16 24L12 16L16 8Z" fill="currentColor" />
-            </svg>
-          </div>
-          <span className="logo-text">Seronex<span className="logo-highlight">Innovations</span></span>
+          <img 
+            src="https://customer-assets.emergentagent.com/job_d5a906b6-e682-4b21-a13b-4884f20df966/artifacts/mhp9cp3n_Senorex_logo_Final.png" 
+            alt="Seronex Innovations" 
+            className="logo-image"
+          />
         </div>
 
         <div className="navbar-menu">
