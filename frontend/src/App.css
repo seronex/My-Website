@@ -722,9 +722,18 @@ body {
     padding: 5rem 1.5rem 3rem;
   }
 
-  .hero-container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+  .hero-background-image {
+    width: 100%;
+    opacity: 0.2;
+  }
+
+  .hero-overlay {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(15, 23, 42, 0.8) 0%, rgba(15, 23, 42, 0.95) 50%, #0f172a 100%);
+  }
+
+  .dark .hero-overlay {
+    background: linear-gradient(to bottom, rgba(2, 6, 23, 0.8) 0%, rgba(2, 6, 23, 0.95) 50%, #020617 100%);
   }
 
   .hero-content {
@@ -737,14 +746,6 @@ body {
   
   .hero-subtitle {
     font-size: 1.5rem;
-  }
-
-  .hero-image-container {
-    order: -1;
-  }
-
-  .hero-image {
-    max-width: 100%;
   }
   
   .section-title {
