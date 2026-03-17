@@ -97,7 +97,7 @@ body {
 .navbar-logo {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
   cursor: pointer;
   transition: opacity 0.2s ease;
 }
