@@ -126,6 +126,44 @@ body {
   margin-left: 0.25rem;
 }
 
+.navbar .nav-link {
+  background: none;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: color 0.2s ease;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.navbar.scrolled .nav-link {
+  color: var(--text-secondary);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--cyan);
+}
+
+.navbar .theme-toggle {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.navbar.scrolled .theme-toggle {
+  color: var(--text-primary);
+}
+
 .navbar-menu {
   display: flex;
   align-items: center;
