@@ -724,4 +724,14 @@ body {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+
+  .footer-contact {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .footer-contact-text {
+    text-align: center;
+    line-height: 1.6;
+  }
 }
