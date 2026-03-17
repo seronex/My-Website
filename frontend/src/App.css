@@ -170,43 +170,6 @@ body {
   gap: 2rem;
 }
 
-.nav-link {
-  background: none;
-  border: none;
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: var(--text-secondary);
-  cursor: pointer;
-  transition: color 0.2s ease;
-  padding: 0.5rem 0;
-  position: relative;
-}
-
-.nav-link:hover {
-  color: var(--cyan);
-}
-
-.nav-link.active {
-  color: var(--cyan);
-}
-
-.theme-toggle {
-  background: none;
-  border: none;
-  color: var(--text-primary);
-  cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.2s ease;
-}
-
-.theme-toggle:hover {
-  background-color: var(--bg-secondary);
-}
-
 /* Hero Section */
 .hero {
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
