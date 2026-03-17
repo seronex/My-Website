@@ -114,6 +114,10 @@ body {
 .logo-text {
   font-size: 1.25rem;
   font-weight: 700;
+  color: #ffffff;
+}
+
+.dark .logo-text {
   color: var(--text-primary);
 }
 
