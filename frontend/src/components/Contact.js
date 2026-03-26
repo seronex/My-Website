@@ -18,7 +18,7 @@ const Contact = () => {
               <Mail size={32} />
             </div>
             <h3 className="contact-title">Business Inquiries</h3>
-            <a href="mailto:business@senorex.in" className="contact-link">
+            <a href="mailto:business@seronex.in" className="contact-link">
               business@senorex.in
             </a>
           </div>
