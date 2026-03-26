@@ -19,7 +19,7 @@ const Contact = () => {
             </div>
             <h3 className="contact-title">Business Inquiries</h3>
             <a href="mailto:business@seronex.in" className="contact-link">
-              business@senorex.in
+              business@seronex.in
             </a>
           </div>
 
